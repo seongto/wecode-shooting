@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Game</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style-reset.css">
+</head>
+<body>
+
+<!--게임 배경-->
+  <canvas id="canvasBg"></canvas>
+
+  <div id="overlapping">
+    <!--게임 캐릭터나 총알-->
+    <canvas id="canvasEntities"></canvas>
+
+    <p class="game-over">GAME OVER!</p>
+    <p class="you-win">YOU WIN!</p>
+
+    <div class="score-container">
+      <p id="timer"> </p>
+    </div>
+  </div>
+  <div class="wrapper">
+    <ul id="bullet-display">
+    </ul>
+    <div id="btns">
+      <div class="btn" id="btn-up"></div>
+      <div class="btn" id="btn-left"></div>
+      <div class="btn" id="btn-space"></div>  
+      <div class="btn" id="btn-right"></div>
+      <div class="btn" id="btn-down"></div>
+      <div class="btn" id="btn-reload">Reload</div>
+    </div>
+  </div>
+<script>
+
+
+</script>
+<script src="js/setting.js"></script>
+<script src="js/player.js" charset="UTF-8"></script>
+<script src="js/bullet.js" charset="UTF-8"></script>
+<script src="js/enemy.js"></script>
+<script src="js/game.js"></script>
+<script src="js/score.js"></script>
+</body>
+</html>
